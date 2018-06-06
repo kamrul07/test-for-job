@@ -1,0 +1,419 @@
+/* Author: Kamrul Hasan */
+/* Feel free to use the quickstart pack */
+/* email: kamrulhasanshuvo@outlook.com */
+
+/* core CSS */
+html,
+body {
+	font-family: font-family: 'EB Garamond', serif;
+}
+p{font-family: 'EB Garamond', serif;}
+a {
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	color: #333;
+	text-decoration: none;
+	outline: 0 solid!important;font-family: 'EB Garamond', serif;
+}
+
+a:hover {
+	text-decoration: none
+}
+
+a:focus {
+	outline: 0 solid!important;
+	text-decoration: none
+}
+
+.text-center {
+	text-align: center
+}
+
+.floatleft {
+	float: left
+}
+
+.floatright {
+	float: right
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+}
+
+input:focus {
+	outline: 0 solid!important
+}
+
+textarea:focus {
+	outline: 0 solid!important
+}
+
+button:focus {
+	outline: 0 solid!important
+}
+
+div:focus {
+	outline: 0 solid!important
+}
+
+input::placeholder {
+	color: white
+}
+
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background: #555;
+  color: #fff;
+}
+/*Font */
+
+@font-face {
+    font-family: 'Palatino LT Std';
+    src: url('fonts/PalatinoLTStd-Roman.woff2') format('woff2'),
+        url('fonts/PalatinoLTStd-Roman.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*Header section */
+
+.header-section {
+    height: 100vh;
+    background: url(img/bg.png) no-repeat;
+    background-size: cover;
+}
+.header_area {
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    height: 100vh;
+    width: 50%;
+    margin: 0 auto;
+    background: #00000054;    flex-direction: column;
+}
+.header-title {
+    color: #c09640;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: 'Palatino LT Std';
+    line-height: 56px;
+}
+.header-title span {
+    font-size: 76px;
+}
+.header_subtitle {
+    color: white;
+    font-size: 23px;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;margin-top: 67px;
+}
+.header_subtitle span {
+    font-size: 16px;
+}
+.sub-header {
+    background: #1f1f1f;
+    padding: 30px 0px;
+}
+.sub-header_area p {
+    color: #acacac;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+/*Inner part */
+.section_img {
+    background: url(img/inner1.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.quotes p {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    position: relative;
+    background: url(img/p.bg.png) no-repeat;
+    background-position: center center;
+    padding: 34px 0px;
+}
+.quotes p span {
+    font-size: 16px;    font-style: normal;font-weight: 500
+}
+
+.quotes {
+
+}
+.innertwo .quotes {
+    padding-right: 85px;
+    padding-left: 279px;
+}
+.innertwo .section_img {
+    background: url(img/inner2.png);
+}
+.innertwo .section_img {
+    background: url(img/inner2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.innerthree .section_img {
+    background: url(img/inner3.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contact-area {
+    background: url(img/form.png);
+    padding: 24px;
+}
+.form-subtitle {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;font-family: 'EB Garamond', serif;
+}
+
+.form-title {
+    font-size: 30px;
+    color: white;
+    margin-top: -6px;
+    margin-bottom: 46px;font-family: 'EB Garamond', serif;
+}
+
+.form-area input {
+    width: 100%;
+    height: 42px;
+    border: none;
+    margin-top: 9px;
+    padding: 0px 11px;font-family: 'EB Garamond', serif;
+}
+.form-area input {
+    width: 98%;
+    height: 42px;
+    border: none;
+    margin-top: 9px;
+    padding: 0px 11px;
+    font-family: 'EB Garamond', serif;
+    background: #ffffffe6;
+}
+.form-area .row {
+   margin-left: 0px;margin-right: 0px
+}
+.form-area input::placeholder {
+   color:black;
+}
+.form-area select {
+    width: 100%;
+    color: black; height: 44px;margin-top: 8px;
+    padding: 0px 11px;font-family: 'EB Garamond', serif;
+    background: #ffffffe6;
+}
+.form-area input[type="submit"] {
+    width: 233px;
+    height: 28px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 21px auto;
+    display: block;
+}
+.footer_title{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    margin-top: 93px;
+    position: relative;
+}
+.footer_title span {
+    font-size:16px;
+    font-weight: 500;
+    color: white;
+  
+}
+.footer_quote {
+    height: 100vh;
+    background: url(img/footer.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-text {
+    color: #acacac;
+    font-size: 10px;
+}
+.footer-area {
+    background: #1F1F1F;
+    padding-top: 32px;
+    }
+
+.footer_title:before {
+    height: 9px;
+    width: 60%;
+    background: black;
+    content: "";
+    position: absolute;
+    top: -125%;
+    border-radius: 5px;
+    left: 19%;
+}
+.footer_title:after {
+    height: 9px;
+    width: 60%;
+    background: black;
+    content: "";
+    position: absolute;
+    bottom: -125%;
+    border-radius: 5px;
+    left: 19%;
+}
+.half_form {
+    width: 49%;
+    margin-right: 5px;float: left;
+}
+ 
+
+
+/* Responsive Part */
+
+@media only screen and (max-width: 767px){
+.header-title span {
+    font-size: 46px;
+}
+.header-title {
+    color: #c09640;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Palatino LT Std';
+    line-height: 43px;
+}
+.quotes {
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.section_img {
+    background: url(img/inner1.png);
+    background-size: cover;
+    background-position: center center;
+    min-height: 300px;
+}
+.innertwo .quotes {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.half_form {
+    width: 100%;
+    margin-right: 5px;
+    float: left;
+}
+.half_form {
+    width: 100%;
+    margin-right: 0px; 
+    float: left;
+}
+.form-area select {
+    width: 98%;
+    color: black; height: 44px;margin-top: 8px;
+    padding: 0px 11px;font-family: 'EB Garamond', serif;
+    background: #ffffffe6;
+}
+.footer_title {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 37px;
+    position: relative;
+}
+.footer_title:before {
+   
+    top: -20%;
+
+}
+.footer_title:after {
+    
+    bottom: -20%;
+ 
+}
+.header_subtitle {
+   
+    margin-top: 67px;
+}
+
+
+}     
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.footer_title {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 26px;
+    position: relative;
+}
+.header_subtitle {
+
+    margin-top: 14px;
+}
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) 
+ {
+.header-title span {
+    font-size: 44px;
+}
+ .quotes {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.innertwo .quotes {
+    padding-right: 20px;
+    padding-left: 20px;
+}	
+.half_form {
+    width: 100%;
+    margin-right: 5px;
+    float: left;
+}
+.half_form input {
+    width: 100%;
+}
+.form-area select {
+    width: 100%;
+   
+}
+.footer_title {
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+    margin-top: 103px;
+    position: relative;
+}
+
+
+
+
+
+
+}
+
